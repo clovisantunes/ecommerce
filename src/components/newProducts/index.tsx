@@ -6,10 +6,6 @@ import "../../styles/css/slick-theme.css"
 import "../../styles/css/slick.css"
 import "../../styles/css/bootstrap.min.css"
 import './styles.css';
-import "../../utils/js/main";
-import "../../utils/js/bootstrap.min.js";
-import "../../utils/js/slick.min.js";
-import "../../utils/js/nouislider.min.js";
 
 
 export default function NewProducts(){
