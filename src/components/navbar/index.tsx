@@ -1,10 +1,10 @@
 "use client"
-import "../../../styles/css/style.css";
-import "../../../styles/css/font-awesome.min.css";
-import "../../../styles/css/nouislider.min.css"
-import "../../../styles/css/slick-theme.css"
-import "../../../styles/css/slick.css"
-import "../../../styles/css/bootstrap.min.css"
+import "../../styles/css/style.css";
+import "../../styles/css/font-awesome.min.css";
+import "../../styles/css/nouislider.min.css"
+import "../../styles/css/slick-theme.css"
+import "../../styles/css/slick.css"
+import "../../styles/css/bootstrap.min.css"
 import './styles.css';
 import { useState } from "react";
 export default function NavBar(){
