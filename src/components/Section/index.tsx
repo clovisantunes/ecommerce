@@ -6,30 +6,30 @@ export default function Session(){
             <div className="row">
                 <div id="aside" className="col-md-3">
                     <div className="aside">
-                        <h3 className="aside-title">Categories</h3>
+                        <h3 className="aside-title">Categorias</h3>
                         <div className="checkbox-filter">
 
                             <div className="input-checkbox">
-                                <input type="checkbox" id="category-1" />
-                                <label id="category-1">
+                                <input type="checkbox" id="Categoria-1" />
+                                <label id="Categoria-1">
                                     <span></span>
-                                    Laptops
+                                    Notebooks
                                     <small>(120)</small>
                                 </label>
                             </div>
 
                             <div className="input-checkbox">
-                                <input type="checkbox" id="category-2" />
-                                <label id="category-2">
+                                <input type="checkbox" id="Categoria-2" />
+                                <label id="Categoria-2">
                                     <span></span>
-                                    Smartphones
+                                    Celulares
                                     <small>(740)</small>
                                 </label>
                             </div>
 
                             <div className="input-checkbox">
-                                <input type="checkbox" id="category-3" />
-                                <label id="category-3">
+                                <input type="checkbox" id="Categoria-3" />
+                                <label id="Categoria-3">
                                     <span></span>
                                     Cameras
                                     <small>(1450)</small>
@@ -37,28 +37,28 @@ export default function Session(){
                             </div>
 
                             <div className="input-checkbox">
-                                <input type="checkbox" id="category-4" />
-                                <label id="category-4">
+                                <input type="checkbox" id="Categoria-4" />
+                                <label id="Categoria-4">
                                     <span></span>
-                                    Accessories
+                                    Acessorios
                                     <small>(578)</small>
                                 </label>
                             </div>
 
                             <div className="input-checkbox">
-                                <input type="checkbox" id="category-5" />
-                                <label id="category-5">
+                                <input type="checkbox" id="Categoria-5" />
+                                <label id="Categoria-5">
                                     <span></span>
-                                    Laptops
+                                    Notebooks
                                     <small>(120)</small>
                                 </label>
                             </div>
 
                             <div className="input-checkbox">
-                                <input type="checkbox" id="category-6" />
-                                <label id="category-6">
+                                <input type="checkbox" id="Categoria-6" />
+                                <label id="Categoria-6">
                                     <span></span>
-                                    Smartphones
+                                    Celulares
                                     <small>(740)</small>
                                 </label>
                             </div>
@@ -66,7 +66,7 @@ export default function Session(){
                     </div>
 
                     <div className="aside">
-                        <h3 className="aside-title">Price</h3>
+                        <h3 className="aside-title">Preço</h3>
                         <div className="price-filter">
                             <div id="price-slider"></div>
                             <div className="input-number price-min">
@@ -84,7 +84,7 @@ export default function Session(){
                     </div>
 
                     <div className="aside">
-                        <h3 className="aside-title">Brand</h3>
+                        <h3 className="aside-title">Marca</h3>
                         <div className="checkbox-filter">
                             <div className="input-checkbox">
                                 <input type="checkbox" id="brand-1" />
@@ -138,15 +138,15 @@ export default function Session(){
                     </div>
 
                     <div className="aside">
-                        <h3 className="aside-title">Top selling</h3>
+                        <h3 className="aside-title">Mais vendidos</h3>
                         <div className="product-widget">
                             <div className="product-img">
                                 <img src="./img/product01.png" alt="" />
                             </div>
                             <div className="product-body">
-                                <p className="product-category">Category</p>
-                                <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                <p className="product-Categoria">Categoria</p>
+                                <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                <h4 className="product-price">RR$980.00 <del className="product-old-price">RR$990.00</del></h4>
                             </div>
                         </div>
 
@@ -155,9 +155,9 @@ export default function Session(){
                                 <img src="./img/product02.png" alt=""/>
                             </div>
                             <div className="product-body">
-                                <p className="product-category">Category</p>
-                                <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                <p className="product-Categoria">Categoria</p>
+                                <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                             </div>
                         </div>
 
@@ -166,9 +166,9 @@ export default function Session(){
                                 <img src="./img/product03.png" alt=""/>
                             </div>
                             <div className="product-body">
-                                <p className="product-category">Category</p>
-                                <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                <p className="product-Categoria">Categoria</p>
+                                <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                             </div>
                         </div>
                     </div>
@@ -181,12 +181,12 @@ export default function Session(){
                                 Sort By:
                                 <select className="input-select">
                                     <option value="0">Popular</option>
-                                    <option value="1">Position</option>
+                                    <option value="1">Posição</option>
                                 </select>
                             </label>
 
                             <label>
-                                Show:
+                                Mostrar:
                                 <select className="input-select">
                                     <option value="0">20</option>
                                     <option value="1">50</option>
@@ -206,13 +206,13 @@ export default function Session(){
                                     <img src="./img/product01.png" alt="" />
                                     <div className="product-label">
                                         <span className="sale">-30%</span>
-                                        <span className="new">NEW</span>
+                                        <span className="NEW">NOVO</span>
                                     </div>
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                         <i className="fa fa-star"></i>
                                         <i className="fa fa-star"></i>
@@ -227,7 +227,7 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
@@ -237,13 +237,13 @@ export default function Session(){
                                 <div className="product-img">
                                     <img src="./img/product02.png" alt="" />
                                     <div className="product-label">
-                                        <span className="new">NEW</span>
+                                        <span className="NOVO">NOVO</span>
                                     </div>
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                         <i className="fa fa-star"></i>
                                         <i className="fa fa-star"></i>
@@ -258,7 +258,7 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
@@ -271,9 +271,9 @@ export default function Session(){
                                     <img src="./img/product03.png" alt="" />
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                     </div>
                                     <div className="product-btns">
@@ -283,7 +283,7 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
@@ -296,9 +296,9 @@ export default function Session(){
                                     <img src="./img/product04.png" alt="" />
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                     </div>
                                     <div className="product-btns">
@@ -308,7 +308,7 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
@@ -321,9 +321,9 @@ export default function Session(){
                                     <img src="./img/product05.png" alt="" />
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                     </div>
                                     <div className="product-btns">
@@ -333,7 +333,7 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
@@ -344,9 +344,9 @@ export default function Session(){
                                     <img src="./img/product06.png" alt="" />
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                         <i className="fa fa-star"></i>
                                         <i className="fa fa-star"></i>
@@ -361,7 +361,7 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
@@ -374,9 +374,9 @@ export default function Session(){
                                     <img src="./img/product07.png" alt="" />
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                         <i className="fa fa-star"></i>
                                         <i className="fa fa-star"></i>
@@ -391,7 +391,7 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
@@ -402,9 +402,9 @@ export default function Session(){
                                     <img src="./img/product08.png" alt="" />
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                     </div>
                                     <div className="product-btns">
@@ -414,7 +414,7 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
@@ -427,9 +427,9 @@ export default function Session(){
                                     <img src="./img/product09.png" alt="" />
                                 </div>
                                 <div className="product-body">
-                                    <p className="product-category">Category</p>
-                                    <h3 className="product-name"><a href="#">product name goes here</a></h3>
-                                    <h4 className="product-price">$980.00 <del className="product-old-price">$990.00</del></h4>
+                                    <p className="product-Categoria">Categoria</p>
+                                    <h3 className="product-name"><a href="#">Nome do seu produto</a></h3>
+                                    <h4 className="product-price">R$980.00 <del className="product-old-price">R$990.00</del></h4>
                                     <div className="product-rating">
                                     </div>
                                     <div className="product-btns">
@@ -439,14 +439,14 @@ export default function Session(){
                                     </div>
                                 </div>
                                 <div className="add-to-cart">
-                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> add to cart</button>
+                                    <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"></i> Adicionar Carrinho</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className="store-filter clearfix">
-                        <span className="store-qty">Showing 20-100 products</span>
+                        <span className="store-qty">Mostrando 20-100 produtos</span>
                         <ul className="store-pagination">
                             <li className="active">1</li>
                             <li><a href="#">2</a></li>
