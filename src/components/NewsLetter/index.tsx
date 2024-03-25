@@ -7,7 +7,7 @@ export default function NewsLetter(){
             <div className="row">
                 <div className="col-md-12">
                     <div className="newsletter">
-                        <p>Receba nossas<strong>Novidades</strong></p>
+                        <p>Receba nossas<strong> Novidades</strong></p>
                         <form>
                             <input className="input" type="email" placeholder="Digite seu email" />
                             <button className="newsletter-btn"><i className="fa fa-envelope"></i> Inscrever</button>
