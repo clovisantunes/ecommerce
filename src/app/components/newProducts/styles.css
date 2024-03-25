@@ -1,0 +1,7 @@
+.product{
+    width: 263px;
+    margin: 16px 15px;
+}
+.products-slick{
+    display: flex;
+}
